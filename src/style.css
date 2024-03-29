@@ -15,11 +15,36 @@
     border-radius: 50%;
     box-shadow: 0 0 50px white;
     align-items: center;
+  justify-content: center;
     display: flex;
     background: black;
     color: chocolate;
+    font-size: 32px;
 }
 .hello
 {
     color: aquamarine;
+}
+
+.stop{
+    width: 64px;
+    height: 64px;
+    background-color: red;
+    border-radius: 50%;
+   
+}
+.start
+{
+    width: 64px;
+    height: 64px;
+    background-color: green;
+    display: table-column;
+    border-radius: 50%;
+}
+.restart
+{
+    width: 64px;
+    height: 64px;
+    background-color: gray;
+    border-radius: 50%;
 }

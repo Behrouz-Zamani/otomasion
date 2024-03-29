@@ -8,7 +8,7 @@ class Hello extends React.Component
   {
     return(
       <h1 className='hello'>
-        The first App by React
+       {this.props.title}
       </h1>
     )
   }

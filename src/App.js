@@ -4,9 +4,6 @@ import './style.css'
 import Hello from "./Hello";
 import Timer from './Timer';
 
-
-
-
 const App = () => {
   const [title, setTitle] = useState("Hi there");
   const [isLight, setIsLight] = useState(false);
@@ -14,7 +11,7 @@ const App = () => {
   useEffect(()=>{
     console.log("useEffect");
     return()=>{
-      
+
     }
   },[isLight])
 

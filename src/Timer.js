@@ -87,6 +87,7 @@ class Timer extends React.Component {
           <button className='action-button start' onClick={this.startInterval}>Start</button>
           <button className='action-button stop' onClick={this.stopInterval}>ُStop</button>
           <button className='action-button restart' onClick={this.restartInterval}>ُRestart</button>
+          <button className='action-button isLight' onClick={this.props.handleSetIsLight}>BG</button>
         </div>
 
 
